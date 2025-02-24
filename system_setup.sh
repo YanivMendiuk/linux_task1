@@ -18,7 +18,7 @@ set -x
 
 sudo apt-get update -y
 sudo apt-get upgrade -y
-sudo apt-get install git net-tools jq yq python3 codium vim
+sudo apt-get install git net-tools jq python3 vim
 
 echo "Finished installing packages available in the default APT repositories."
 
