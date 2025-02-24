@@ -1,4 +1,17 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# -----------------------------------------------------
+# Script Name:    install_non_apt_packages.sh
+# Version:        1.1.0
+# Author:         Yaniv Mendiuk
+# Date:           2025-02-24
+# Description:    This script installs kubectl and AWS CLI by:  
+#                 1. Adding the Kubernetes package repository and installing kubectl.  
+#                 2. Downloading, extracting, and installing AWS CLI.  
+#                 3. Ensuring proper configuration and verification of installations. 
+set -o errexit 
+set -o pipefail 
+set -x 
+# -----------------------------------------------------
 
 # Installing packages that are not included in the default APT repositories
 

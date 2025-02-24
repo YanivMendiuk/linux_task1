@@ -1,6 +1,17 @@
-# Edit/Create ~/.vimrc to make Vim more approachable
-
-#!/bin/bash
+#!/usr/bin/env bash
+# -----------------------------------------------------
+# Script Name:    setup_vim.sh
+# Version:        1.1.0
+# Author:         Yaniv Mendiuk
+# Date:           2025-02-24
+# Description:    This script automates the configuration of vimrc by:
+#                 1. Storing the required Vim configuration in a variable.
+#                 2. Checking if a .vimrc file already exists.
+#                 3. Overwriting the existing configuration or creating a new .vimrc file from scratch.
+set -o errexit 
+set -o pipefail 
+set -x 
+# -----------------------------------------------------
 
 VIMRC="$HOME/.vimrc"
 
@@ -8,9 +19,6 @@ VIMRC="$HOME/.vimrc"
 VIM_CONFIG='
 " Enable syntax highlighting
 syntax on
-
-" Enable mouse support
-set mouse=a
 
 " Enable clipboard support for copying/pasting with system clipboard
 set clipboard=unnamedplus
