@@ -35,8 +35,7 @@ This script configures Vim by:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo-name/system-setup.git
-cd system-setup
+git clone https://github.com/YanivMendiuk/linux_task1.git
 ```
 
 ### Run the Setup Script
@@ -59,17 +58,6 @@ vim --version
 
 ## Requirements
 
-- A Debian-based Linux distribution (Ubuntu, Debian, etc.).
+- A Debian-based Linux distribution (Mint, Ubuntu, Debian, etc.).
 - `sudo` privileges.
 - `curl` and `git` installed (if not, install using `sudo apt-get install curl git -y`).
-
-## Contributing
-
-Feel free to submit issues or pull requests to improve this setup process!
-
-## License
-
-This project is licensed under the MIT License.
-
-The project name is https\://github.com/YanivMendiuk/linux\_task1.git
-
