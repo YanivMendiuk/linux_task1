@@ -37,11 +37,18 @@ This script configures Vim by:
 ```bash
 git clone https://github.com/YanivMendiuk/linux_task1.git
 ```
+### Steps before running the script
+
+If you are using linux mint please follow next steps:
+```
+vi etc/apt/sources.list
+```
+Look for any lines that refernce cdrom:// and remove them. 
+You can simply somment them out by adding a # at the beginning of the line.
 
 ### Run the Setup Script
 
 ```bash
-chmod +x system_setup.sh
 ./system_setup.sh
 ```
 
