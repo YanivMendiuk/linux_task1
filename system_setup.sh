@@ -17,8 +17,7 @@ set -x
 # Installing packages available in the default APT repositories
 
 sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get install git net-tools jq python3 vim
+sudo apt-get install git net-tools jq python3 vim -y
 
 echo "Finished installing packages available in the default APT repositories."
 
